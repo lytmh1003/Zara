@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A09BFED287EA0650050A4B4 /* UIViewMyself.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A09BFEC287EA0650050A4B4 /* UIViewMyself.m */; };
+		2A09BFEF287EAB6D0050A4B4 /* UIWechat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A09BFEE287EAB6C0050A4B4 /* UIWechat1.jpeg */; };
+		2A283A40287CFE6C004BB877 /* wechat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A283A3F287CFE6C004BB877 /* wechat1.jpeg */; };
+		2A32E53D284DDDC700F97FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E53C284DDDC700F97FEF /* AppDelegate.m */; };
+		2A32E540284DDDC700F97FEF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E53F284DDDC700F97FEF /* SceneDelegate.m */; };
+		2A32E543284DDDC700F97FEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E542284DDDC700F97FEF /* ViewController.m */; };
+		2A32E546284DDDC700F97FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E544284DDDC700F97FEF /* Main.storyboard */; };
+		2A32E548284DDDCA00F97FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E547284DDDCA00F97FEF /* Assets.xcassets */; };
+		2A32E54B284DDDCA00F97FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E549284DDDCA00F97FEF /* LaunchScreen.storyboard */; };
+		2A32E54E284DDDCA00F97FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E54D284DDDCA00F97FEF /* main.m */; };
+		2A32E558284DDDCA00F97FEF /* ZaraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E557284DDDCA00F97FEF /* ZaraTests.m */; };
+		2A32E562284DDDCA00F97FEF /* ZaraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E561284DDDCA00F97FEF /* ZaraUITests.m */; };
+		2A32E564284DDDCA00F97FEF /* ZaraUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E563284DDDCA00F97FEF /* ZaraUITestsLaunchTests.m */; };
+		2A32E572284DE26C00F97FEF /* VcFrist-Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E571284DE26C00F97FEF /* VcFrist-Image.m */; };
+		2A32E579284DF06D00F97FEF /* WechatIMG23.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E574284DF06C00F97FEF /* WechatIMG23.jpeg */; };
+		2A32E57A284DF06D00F97FEF /* WechatIMG26.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E575284DF06C00F97FEF /* WechatIMG26.jpeg */; };
+		2A32E57B284DF06D00F97FEF /* WechatIMG27.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E576284DF06C00F97FEF /* WechatIMG27.jpeg */; };
+		2A32E57C284DF06D00F97FEF /* WechatIMG24.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E577284DF06D00F97FEF /* WechatIMG24.jpeg */; };
+		2A32E57D284DF06D00F97FEF /* WechatIMG25.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E578284DF06D00F97FEF /* WechatIMG25.jpeg */; };
+		2A32E5B0284E0B5800F97FEF /* WechatIMG25276.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E5AB284E0B5800F97FEF /* WechatIMG25276.jpeg */; };
+		2A32E5B1284E0B5800F97FEF /* WechatIMG25272.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E5AC284E0B5800F97FEF /* WechatIMG25272.jpeg */; };
+		2A32E5B2284E0B5800F97FEF /* WechatIMG25273.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E5AD284E0B5800F97FEF /* WechatIMG25273.jpeg */; };
+		2A32E5B3284E0B5800F97FEF /* WechatIMG25274.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E5AE284E0B5800F97FEF /* WechatIMG25274.jpeg */; };
+		2A32E5B4284E0B5800F97FEF /* WechatIMG25275.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A32E5AF284E0B5800F97FEF /* WechatIMG25275.jpeg */; };
+		2A32E5B7284E131B00F97FEF /* VcPerSonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E5B6284E131B00F97FEF /* VcPerSonal.m */; };
+		2A32E5BA284E134F00F97FEF /* VcLike.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E5B9284E134F00F97FEF /* VcLike.m */; };
+		2A32E5BD284E324000F97FEF /* VcLike历史收藏.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E5BC284E324000F97FEF /* VcLike历史收藏.m */; };
+		2A32E5C0284E48E000F97FEF /* VcPersonal-Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E5BF284E48E000F97FEF /* VcPersonal-Set.m */; };
+		2A32E5C3284E4D9300F97FEF /* VcSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E5C2284E4D9300F97FEF /* VcSearch.m */; };
+		2A32E5C6284F2FBA00F97FEF /* VcSearchCarme.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32E5C5284F2FBA00F97FEF /* VcSearchCarme.m */; };
+		2A4AC4832882AB420099AB50 /* UIWechat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC4822882AB410099AB50 /* UIWechat2.jpeg */; };
+		2A4AC4852882AB4D0099AB50 /* UIWechat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC4842882AB4D0099AB50 /* UIWechat3.jpeg */; };
+		2A4AC4892884EA200099AB50 /* UIWechat5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC4862884EA200099AB50 /* UIWechat5.jpeg */; };
+		2A4AC48A2884EA200099AB50 /* UIWechat6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC4872884EA200099AB50 /* UIWechat6.jpeg */; };
+		2A4AC48B2884EA200099AB50 /* UIWechat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC4882884EA200099AB50 /* UIWechat4.jpeg */; };
+		2A4AC48D2884EDE50099AB50 /* UIWechat7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC48C2884EDE50099AB50 /* UIWechat7.jpeg */; };
+		2A4AC4902885022D0099AB50 /* UIViewFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AC48F2885022D0099AB50 /* UIViewFriends.m */; };
+		2A4AC4922885040C0099AB50 /* UI1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC4912885040C0099AB50 /* UI1.jpeg */; };
+		2A4AC4952885064F0099AB50 /* UIViewServe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AC4942885064F0099AB50 /* UIViewServe.m */; };
+		2A4AC497288506580099AB50 /* UI2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC496288506580099AB50 /* UI2.jpeg */; };
+		2A4AC49A28850C840099AB50 /* UIbntL.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC49828850C840099AB50 /* UIbntL.jpeg */; };
+		2A4AC49B28850C840099AB50 /* UIbtnR.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AC49928850C840099AB50 /* UIbtnR.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A32E554284DDDCA00F97FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A32E530284DDDC700F97FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A32E537284DDDC700F97FEF;
+			remoteInfo = Zara;
+		};
+		2A32E55E284DDDCA00F97FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A32E530284DDDC700F97FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A32E537284DDDC700F97FEF;
+			remoteInfo = Zara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A09BFEB287EA0650050A4B4 /* UIViewMyself.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewMyself.h; sourceTree = "<group>"; };
+		2A09BFEC287EA0650050A4B4 /* UIViewMyself.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewMyself.m; sourceTree = "<group>"; };
+		2A09BFEE287EAB6C0050A4B4 /* UIWechat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIWechat1.jpeg; sourceTree = "<group>"; };
+		2A283A3F287CFE6C004BB877 /* wechat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wechat1.jpeg; sourceTree = "<group>"; };
+		2A32E538284DDDC700F97FEF /* Zara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A32E53B284DDDC700F97FEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A32E53C284DDDC700F97FEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A32E53E284DDDC700F97FEF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2A32E53F284DDDC700F97FEF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2A32E541284DDDC700F97FEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A32E542284DDDC700F97FEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A32E545284DDDC700F97FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A32E547284DDDCA00F97FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A32E54A284DDDCA00F97FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A32E54C284DDDCA00F97FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A32E54D284DDDCA00F97FEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A32E553284DDDCA00F97FEF /* ZaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A32E557284DDDCA00F97FEF /* ZaraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaraTests.m; sourceTree = "<group>"; };
+		2A32E55D284DDDCA00F97FEF /* ZaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A32E561284DDDCA00F97FEF /* ZaraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaraUITests.m; sourceTree = "<group>"; };
+		2A32E563284DDDCA00F97FEF /* ZaraUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaraUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2A32E570284DE26C00F97FEF /* VcFrist-Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VcFrist-Image.h"; sourceTree = "<group>"; };
+		2A32E571284DE26C00F97FEF /* VcFrist-Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VcFrist-Image.m"; sourceTree = "<group>"; };
+		2A32E574284DF06C00F97FEF /* WechatIMG23.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG23.jpeg; sourceTree = "<group>"; };
+		2A32E575284DF06C00F97FEF /* WechatIMG26.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG26.jpeg; sourceTree = "<group>"; };
+		2A32E576284DF06C00F97FEF /* WechatIMG27.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG27.jpeg; sourceTree = "<group>"; };
+		2A32E577284DF06D00F97FEF /* WechatIMG24.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG24.jpeg; sourceTree = "<group>"; };
+		2A32E578284DF06D00F97FEF /* WechatIMG25.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG25.jpeg; sourceTree = "<group>"; };
+		2A32E5AB284E0B5800F97FEF /* WechatIMG25276.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG25276.jpeg; sourceTree = "<group>"; };
+		2A32E5AC284E0B5800F97FEF /* WechatIMG25272.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG25272.jpeg; sourceTree = "<group>"; };
+		2A32E5AD284E0B5800F97FEF /* WechatIMG25273.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG25273.jpeg; sourceTree = "<group>"; };
+		2A32E5AE284E0B5800F97FEF /* WechatIMG25274.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG25274.jpeg; sourceTree = "<group>"; };
+		2A32E5AF284E0B5800F97FEF /* WechatIMG25275.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG25275.jpeg; sourceTree = "<group>"; };
+		2A32E5B5284E131B00F97FEF /* VcPerSonal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcPerSonal.h; sourceTree = "<group>"; };
+		2A32E5B6284E131B00F97FEF /* VcPerSonal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcPerSonal.m; sourceTree = "<group>"; };
+		2A32E5B8284E134F00F97FEF /* VcLike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcLike.h; sourceTree = "<group>"; };
+		2A32E5B9284E134F00F97FEF /* VcLike.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcLike.m; sourceTree = "<group>"; };
+		2A32E5BB284E324000F97FEF /* VcLike历史收藏.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VcLike历史收藏.h"; sourceTree = "<group>"; };
+		2A32E5BC284E324000F97FEF /* VcLike历史收藏.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VcLike历史收藏.m"; sourceTree = "<group>"; };
+		2A32E5BE284E48E000F97FEF /* VcPersonal-Set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VcPersonal-Set.h"; sourceTree = "<group>"; };
+		2A32E5BF284E48E000F97FEF /* VcPersonal-Set.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VcPersonal-Set.m"; sourceTree = "<group>"; };
+		2A32E5C1284E4D9300F97FEF /* VcSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcSearch.h; sourceTree = "<group>"; };
+		2A32E5C2284E4D9300F97FEF /* VcSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcSearch.m; sourceTree = "<group>"; };
+		2A32E5C4284F2FBA00F97FEF /* VcSearchCarme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcSearchCarme.h; sourceTree = "<group>"; };
+		2A32E5C5284F2FBA00F97FEF /* VcSearchCarme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcSearchCarme.m; sourceTree = "<group>"; };
+		2A4AC4822882AB410099AB50 /* UIWechat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIWechat2.jpeg; sourceTree = "<group>"; };
+		2A4AC4842882AB4D0099AB50 /* UIWechat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIWechat3.jpeg; sourceTree = "<group>"; };
+		2A4AC4862884EA200099AB50 /* UIWechat5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIWechat5.jpeg; sourceTree = "<group>"; };
+		2A4AC4872884EA200099AB50 /* UIWechat6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIWechat6.jpeg; sourceTree = "<group>"; };
+		2A4AC4882884EA200099AB50 /* UIWechat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIWechat4.jpeg; sourceTree = "<group>"; };
+		2A4AC48C2884EDE50099AB50 /* UIWechat7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIWechat7.jpeg; sourceTree = "<group>"; };
+		2A4AC48E2885022D0099AB50 /* UIViewFriends.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewFriends.h; sourceTree = "<group>"; };
+		2A4AC48F2885022D0099AB50 /* UIViewFriends.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewFriends.m; sourceTree = "<group>"; };
+		2A4AC4912885040C0099AB50 /* UI1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UI1.jpeg; sourceTree = "<group>"; };
+		2A4AC4932885064F0099AB50 /* UIViewServe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewServe.h; sourceTree = "<group>"; };
+		2A4AC4942885064F0099AB50 /* UIViewServe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewServe.m; sourceTree = "<group>"; };
+		2A4AC496288506580099AB50 /* UI2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UI2.jpeg; sourceTree = "<group>"; };
+		2A4AC49828850C840099AB50 /* UIbntL.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIbntL.jpeg; sourceTree = "<group>"; };
+		2A4AC49928850C840099AB50 /* UIbtnR.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIbtnR.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A32E535284DDDC700F97FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A32E550284DDDCA00F97FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A32E55A284DDDCA00F97FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A32E52F284DDDC700F97FEF = {
+			isa = PBXGroup;
+			children = (
+				2A32E53A284DDDC700F97FEF /* Zara */,
+				2A32E556284DDDCA00F97FEF /* ZaraTests */,
+				2A32E560284DDDCA00F97FEF /* ZaraUITests */,
+				2A32E539284DDDC700F97FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A32E539284DDDC700F97FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A32E538284DDDC700F97FEF /* Zara.app */,
+				2A32E553284DDDCA00F97FEF /* ZaraTests.xctest */,
+				2A32E55D284DDDCA00F97FEF /* ZaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A32E53A284DDDC700F97FEF /* Zara */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AC49828850C840099AB50 /* UIbntL.jpeg */,
+				2A4AC49928850C840099AB50 /* UIbtnR.jpeg */,
+				2A4AC4912885040C0099AB50 /* UI1.jpeg */,
+				2A4AC496288506580099AB50 /* UI2.jpeg */,
+				2A4AC48C2884EDE50099AB50 /* UIWechat7.jpeg */,
+				2A09BFEE287EAB6C0050A4B4 /* UIWechat1.jpeg */,
+				2A4AC4882884EA200099AB50 /* UIWechat4.jpeg */,
+				2A4AC4862884EA200099AB50 /* UIWechat5.jpeg */,
+				2A4AC4872884EA200099AB50 /* UIWechat6.jpeg */,
+				2A283A3F287CFE6C004BB877 /* wechat1.jpeg */,
+				2A4AC4842882AB4D0099AB50 /* UIWechat3.jpeg */,
+				2A4AC4822882AB410099AB50 /* UIWechat2.jpeg */,
+				2A32E5AC284E0B5800F97FEF /* WechatIMG25272.jpeg */,
+				2A32E5AD284E0B5800F97FEF /* WechatIMG25273.jpeg */,
+				2A32E5AE284E0B5800F97FEF /* WechatIMG25274.jpeg */,
+				2A32E5AF284E0B5800F97FEF /* WechatIMG25275.jpeg */,
+				2A32E5AB284E0B5800F97FEF /* WechatIMG25276.jpeg */,
+				2A32E573284DF05500F97FEF /* Zaraimage */,
+				2A32E53B284DDDC700F97FEF /* AppDelegate.h */,
+				2A32E53C284DDDC700F97FEF /* AppDelegate.m */,
+				2A32E53E284DDDC700F97FEF /* SceneDelegate.h */,
+				2A32E53F284DDDC700F97FEF /* SceneDelegate.m */,
+				2A32E5C1284E4D9300F97FEF /* VcSearch.h */,
+				2A32E5C2284E4D9300F97FEF /* VcSearch.m */,
+				2A32E5C4284F2FBA00F97FEF /* VcSearchCarme.h */,
+				2A32E5C5284F2FBA00F97FEF /* VcSearchCarme.m */,
+				2A32E541284DDDC700F97FEF /* ViewController.h */,
+				2A32E542284DDDC700F97FEF /* ViewController.m */,
+				2A32E570284DE26C00F97FEF /* VcFrist-Image.h */,
+				2A32E571284DE26C00F97FEF /* VcFrist-Image.m */,
+				2A32E5B5284E131B00F97FEF /* VcPerSonal.h */,
+				2A32E5B6284E131B00F97FEF /* VcPerSonal.m */,
+				2A32E5BE284E48E000F97FEF /* VcPersonal-Set.h */,
+				2A32E5BF284E48E000F97FEF /* VcPersonal-Set.m */,
+				2A32E5B8284E134F00F97FEF /* VcLike.h */,
+				2A32E5B9284E134F00F97FEF /* VcLike.m */,
+				2A32E5BB284E324000F97FEF /* VcLike历史收藏.h */,
+				2A32E5BC284E324000F97FEF /* VcLike历史收藏.m */,
+				2A09BFEB287EA0650050A4B4 /* UIViewMyself.h */,
+				2A09BFEC287EA0650050A4B4 /* UIViewMyself.m */,
+				2A4AC48E2885022D0099AB50 /* UIViewFriends.h */,
+				2A4AC48F2885022D0099AB50 /* UIViewFriends.m */,
+				2A4AC4932885064F0099AB50 /* UIViewServe.h */,
+				2A4AC4942885064F0099AB50 /* UIViewServe.m */,
+				2A32E544284DDDC700F97FEF /* Main.storyboard */,
+				2A32E547284DDDCA00F97FEF /* Assets.xcassets */,
+				2A32E549284DDDCA00F97FEF /* LaunchScreen.storyboard */,
+				2A32E54C284DDDCA00F97FEF /* Info.plist */,
+				2A32E54D284DDDCA00F97FEF /* main.m */,
+			);
+			path = Zara;
+			sourceTree = "<group>";
+		};
+		2A32E556284DDDCA00F97FEF /* ZaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A32E557284DDDCA00F97FEF /* ZaraTests.m */,
+			);
+			path = ZaraTests;
+			sourceTree = "<group>";
+		};
+		2A32E560284DDDCA00F97FEF /* ZaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A32E561284DDDCA00F97FEF /* ZaraUITests.m */,
+				2A32E563284DDDCA00F97FEF /* ZaraUITestsLaunchTests.m */,
+			);
+			path = ZaraUITests;
+			sourceTree = "<group>";
+		};
+		2A32E573284DF05500F97FEF /* Zaraimage */ = {
+			isa = PBXGroup;
+			children = (
+				2A32E574284DF06C00F97FEF /* WechatIMG23.jpeg */,
+				2A32E577284DF06D00F97FEF /* WechatIMG24.jpeg */,
+				2A32E578284DF06D00F97FEF /* WechatIMG25.jpeg */,
+				2A32E575284DF06C00F97FEF /* WechatIMG26.jpeg */,
+				2A32E576284DF06C00F97FEF /* WechatIMG27.jpeg */,
+			);
+			path = Zaraimage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A32E537284DDDC700F97FEF /* Zara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A32E567284DDDCA00F97FEF /* Build configuration list for PBXNativeTarget "Zara" */;
+			buildPhases = (
+				2A32E534284DDDC700F97FEF /* Sources */,
+				2A32E535284DDDC700F97FEF /* Frameworks */,
+				2A32E536284DDDC700F97FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zara;
+			productName = Zara;
+			productReference = 2A32E538284DDDC700F97FEF /* Zara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A32E552284DDDCA00F97FEF /* ZaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A32E56A284DDDCA00F97FEF /* Build configuration list for PBXNativeTarget "ZaraTests" */;
+			buildPhases = (
+				2A32E54F284DDDCA00F97FEF /* Sources */,
+				2A32E550284DDDCA00F97FEF /* Frameworks */,
+				2A32E551284DDDCA00F97FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A32E555284DDDCA00F97FEF /* PBXTargetDependency */,
+			);
+			name = ZaraTests;
+			productName = ZaraTests;
+			productReference = 2A32E553284DDDCA00F97FEF /* ZaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A32E55C284DDDCA00F97FEF /* ZaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A32E56D284DDDCA00F97FEF /* Build configuration list for PBXNativeTarget "ZaraUITests" */;
+			buildPhases = (
+				2A32E559284DDDCA00F97FEF /* Sources */,
+				2A32E55A284DDDCA00F97FEF /* Frameworks */,
+				2A32E55B284DDDCA00F97FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A32E55F284DDDCA00F97FEF /* PBXTargetDependency */,
+			);
+			name = ZaraUITests;
+			productName = ZaraUITests;
+			productReference = 2A32E55D284DDDCA00F97FEF /* ZaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A32E530284DDDC700F97FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2A32E537284DDDC700F97FEF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2A32E552284DDDCA00F97FEF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2A32E537284DDDC700F97FEF;
+					};
+					2A32E55C284DDDCA00F97FEF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2A32E537284DDDC700F97FEF;
+					};
+				};
+			};
+			buildConfigurationList = 2A32E533284DDDC700F97FEF /* Build configuration list for PBXProject "Zara" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A32E52F284DDDC700F97FEF;
+			productRefGroup = 2A32E539284DDDC700F97FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A32E537284DDDC700F97FEF /* Zara */,
+				2A32E552284DDDCA00F97FEF /* ZaraTests */,
+				2A32E55C284DDDCA00F97FEF /* ZaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A32E536284DDDC700F97FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4AC48D2884EDE50099AB50 /* UIWechat7.jpeg in Resources */,
+				2A4AC48A2884EA200099AB50 /* UIWechat6.jpeg in Resources */,
+				2A4AC497288506580099AB50 /* UI2.jpeg in Resources */,
+				2A4AC49B28850C840099AB50 /* UIbtnR.jpeg in Resources */,
+				2A32E5B1284E0B5800F97FEF /* WechatIMG25272.jpeg in Resources */,
+				2A4AC4892884EA200099AB50 /* UIWechat5.jpeg in Resources */,
+				2A283A40287CFE6C004BB877 /* wechat1.jpeg in Resources */,
+				2A4AC4922885040C0099AB50 /* UI1.jpeg in Resources */,
+				2A32E57B284DF06D00F97FEF /* WechatIMG27.jpeg in Resources */,
+				2A09BFEF287EAB6D0050A4B4 /* UIWechat1.jpeg in Resources */,
+				2A32E54B284DDDCA00F97FEF /* LaunchScreen.storyboard in Resources */,
+				2A32E5B4284E0B5800F97FEF /* WechatIMG25275.jpeg in Resources */,
+				2A4AC48B2884EA200099AB50 /* UIWechat4.jpeg in Resources */,
+				2A32E5B0284E0B5800F97FEF /* WechatIMG25276.jpeg in Resources */,
+				2A4AC49A28850C840099AB50 /* UIbntL.jpeg in Resources */,
+				2A4AC4852882AB4D0099AB50 /* UIWechat3.jpeg in Resources */,
+				2A32E548284DDDCA00F97FEF /* Assets.xcassets in Resources */,
+				2A32E57A284DF06D00F97FEF /* WechatIMG26.jpeg in Resources */,
+				2A32E57D284DF06D00F97FEF /* WechatIMG25.jpeg in Resources */,
+				2A32E5B2284E0B5800F97FEF /* WechatIMG25273.jpeg in Resources */,
+				2A32E5B3284E0B5800F97FEF /* WechatIMG25274.jpeg in Resources */,
+				2A32E579284DF06D00F97FEF /* WechatIMG23.jpeg in Resources */,
+				2A32E57C284DF06D00F97FEF /* WechatIMG24.jpeg in Resources */,
+				2A4AC4832882AB420099AB50 /* UIWechat2.jpeg in Resources */,
+				2A32E546284DDDC700F97FEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A32E551284DDDCA00F97FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A32E55B284DDDCA00F97FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A32E534284DDDC700F97FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A32E543284DDDC700F97FEF /* ViewController.m in Sources */,
+				2A4AC4902885022D0099AB50 /* UIViewFriends.m in Sources */,
+				2A32E5BA284E134F00F97FEF /* VcLike.m in Sources */,
+				2A09BFED287EA0650050A4B4 /* UIViewMyself.m in Sources */,
+				2A32E5BD284E324000F97FEF /* VcLike历史收藏.m in Sources */,
+				2A32E53D284DDDC700F97FEF /* AppDelegate.m in Sources */,
+				2A4AC4952885064F0099AB50 /* UIViewServe.m in Sources */,
+				2A32E572284DE26C00F97FEF /* VcFrist-Image.m in Sources */,
+				2A32E54E284DDDCA00F97FEF /* main.m in Sources */,
+				2A32E5C3284E4D9300F97FEF /* VcSearch.m in Sources */,
+				2A32E5B7284E131B00F97FEF /* VcPerSonal.m in Sources */,
+				2A32E5C6284F2FBA00F97FEF /* VcSearchCarme.m in Sources */,
+				2A32E540284DDDC700F97FEF /* SceneDelegate.m in Sources */,
+				2A32E5C0284E48E000F97FEF /* VcPersonal-Set.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A32E54F284DDDCA00F97FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A32E558284DDDCA00F97FEF /* ZaraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A32E559284DDDCA00F97FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A32E564284DDDCA00F97FEF /* ZaraUITestsLaunchTests.m in Sources */,
+				2A32E562284DDDCA00F97FEF /* ZaraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A32E555284DDDCA00F97FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A32E537284DDDC700F97FEF /* Zara */;
+			targetProxy = 2A32E554284DDDCA00F97FEF /* PBXContainerItemProxy */;
+		};
+		2A32E55F284DDDCA00F97FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A32E537284DDDC700F97FEF /* Zara */;
+			targetProxy = 2A32E55E284DDDCA00F97FEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A32E544284DDDC700F97FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A32E545284DDDC700F97FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A32E549284DDDCA00F97FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A32E54A284DDDCA00F97FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A32E565284DDDCA00F97FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A32E566284DDDCA00F97FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A32E568284DDDCA00F97FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y67A8NY88W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zara/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-11111.Zara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A32E569284DDDCA00F97FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y67A8NY88W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zara/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-11111.Zara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A32E56B284DDDCA00F97FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y67A8NY88W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-11111.ZaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zara.app/Zara";
+			};
+			name = Debug;
+		};
+		2A32E56C284DDDCA00F97FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y67A8NY88W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-11111.ZaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zara.app/Zara";
+			};
+			name = Release;
+		};
+		2A32E56E284DDDCA00F97FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y67A8NY88W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-11111.ZaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zara;
+			};
+			name = Debug;
+		};
+		2A32E56F284DDDCA00F97FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y67A8NY88W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-11111.ZaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A32E533284DDDC700F97FEF /* Build configuration list for PBXProject "Zara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A32E565284DDDCA00F97FEF /* Debug */,
+				2A32E566284DDDCA00F97FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A32E567284DDDCA00F97FEF /* Build configuration list for PBXNativeTarget "Zara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A32E568284DDDCA00F97FEF /* Debug */,
+				2A32E569284DDDCA00F97FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A32E56A284DDDCA00F97FEF /* Build configuration list for PBXNativeTarget "ZaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A32E56B284DDDCA00F97FEF /* Debug */,
+				2A32E56C284DDDCA00F97FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A32E56D284DDDCA00F97FEF /* Build configuration list for PBXNativeTarget "ZaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A32E56E284DDDCA00F97FEF /* Debug */,
+				2A32E56F284DDDCA00F97FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A32E530284DDDC700F97FEF /* Project object */;
+}
